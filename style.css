@@ -67,6 +67,7 @@ li {
     display: flex;
     flex-direction: column;
     margin-top: 25px;
+    align-items: center;
 
 
 }
