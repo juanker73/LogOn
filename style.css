@@ -61,15 +61,15 @@ h1 {
 }
 
 li {
-    margin: auto 25%;
+    justify-content: center;
+    margin: auto 0%;
     list-style: none;
     display: flex;
     margin-top: 25px;
     align-items: center;
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 12px;
 
 
 }
@@ -80,11 +80,11 @@ li {
     text-align: center;
     color: chartreuse;
     text-decoration: none;
-    margin: 10px;
     border: solid 2px fuchsia;
     border-radius: 15px;
     padding: 10px;
     background-color: rgb(85, 4, 247);
+    justify-content: center;
 
 }
 
@@ -129,12 +129,26 @@ footer {
     color: gold;
     text-align: center;
     font-size: small;
-    margin-top: 20%;
+    margin-top: 50%;
     border-top: 1px solid fuchsia;
     padding-top: 5%;
     padding-bottom: 4%;
     box-shadow: 1px 1px 30px fuchsia;
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0px;
+
+
+}
+
+@media (max-width:400px){
+
+    li{
+        flex-direction: row;
+        
+       
+    }
+
+    
 
 
 }
