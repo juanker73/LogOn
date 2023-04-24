@@ -58,16 +58,18 @@ h1 {
     color: red;
     text-decoration: underline;
     text-align: center;
-
-
 }
 
 li {
+    margin: auto 25%;
     list-style: none;
     display: flex;
-    flex-direction: column;
     margin-top: 25px;
     align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
 
 
 }
@@ -78,7 +80,7 @@ li {
     text-align: center;
     color: chartreuse;
     text-decoration: none;
-    margin: 20px;
+    margin: 10px;
     border: solid 2px fuchsia;
     border-radius: 15px;
     padding: 10px;
