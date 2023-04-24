@@ -60,6 +60,10 @@ h1 {
     text-align: center;
 }
 
+ul{
+    margin-top: 10%;
+}
+
 li {
     justify-content: center;
     margin: auto 0%;
@@ -129,7 +133,7 @@ footer {
     color: gold;
     text-align: center;
     font-size: small;
-    margin-top: 50%;
+    margin-top: 30%;
     border-top: 1px solid fuchsia;
     padding-top: 5%;
     padding-bottom: 4%;
