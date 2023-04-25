@@ -176,7 +176,7 @@ li img {
 
 footer {
     border-radius: 5px;
-    background-color: gold;
+    background-color: rgb(195, 0, 255);
     color: rgb(14, 0, 14);
     text-align: center;
     font-size: small;
@@ -195,11 +195,17 @@ footer {
 
     li{
         flex-direction: row;
+        margin: auto 45px;
         
        
     }
     footer{
         margin-bottom: 0px;
+    }
+
+    main {
+
+        flex-direction: column;
     }
 
     
