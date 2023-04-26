@@ -1,39 +1,181 @@
 * {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(35, 3, 84);
-    color: whitesmoke;
-    text-transform: capitalize;
-    
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(35, 3, 84);
+  color: whitesmoke;
+  text-transform: capitalize;
 }
 
 h1 {
-    padding: 20px;
-    text-align: center;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    border: solid 2px rgb(249, 87, 249);
-    border-radius: 15px;
-    color: gold;
-    box-shadow: 1px 1px 20px fuchsia;
-    text-shadow: 1px 1px 2px black;
-    -webkit-animation: random 20s infinite;
-    animation: random 20s infinite;
+  padding: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: solid 2px rgb(249, 87, 249);
+  border-radius: 15px;
+  color: gold;
+  box-shadow: 1px 1px 20px fuchsia;
+  text-shadow: 1px 1px 2px black;
+  -webkit-animation: random 20s infinite;
+  animation: random 20s infinite;
 }
-h3{
-    text-shadow: none;
+h3 {
+  text-shadow: none;
 }
 
 @keyframes random {
+  0% {
+    background-color: rgb(73, 5, 122);
+  }
 
+  25% {
+    background-color: fuchsia;
+  }
+
+  50% {
+    background-color: rgb(73, 5, 122);
+  }
+
+  75% {
+    background-color: fuchsia;
+  }
+
+  100% {
+    background-color: rgb(73, 5, 122);
+  }
+}
+
+h1:hover {
+  padding: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: solid 2px rgb(249, 87, 249);
+  border-radius: 15px;
+  color: rgb(201, 1, 1);
+  box-shadow: 1px 1px 20px fuchsia;
+  text-shadow: 1px 1px 2px white;
+  -webkit-animation: random 0.5s infinite;
+  animation: random 0.5s infinite;
+}
+
+@keyframes random {
+  0% {
+    background-color: rgb(73, 5, 122);
+  }
+
+  25% {
+    background-color: fuchsia;
+  }
+
+  50% {
+    background-color: rgb(73, 5, 122);
+  }
+
+  75% {
+    background-color: fuchsia;
+  }
+
+  100% {
+    background-color: rgb(73, 5, 122);
+  }
+}
+
+.initial {
+  font-family: "Courier New", Courier, monospace;
+  margin: 60px;
+  color: red;
+  text-decoration: underline;
+  text-align: center;
+}
+
+ul {
+  margin-top: 10%;
+}
+
+li {
+  justify-content: center;
+  margin: auto 0%;
+  list-style: none;
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.redes {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  color: chartreuse;
+  text-decoration: none;
+  border: solid 2px fuchsia;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgb(85, 4, 247);
+  justify-content: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+.redes:hover {
+  color: red;
+  background-color: rgb(213, 249, 154);
+  box-shadow: 1px 1px 20px chartreuse;
+  border: solid 2px chartreuse;
+  text-shadow: 1px 1px 2px black;
+}
+
+li img {
+  box-shadow: none;
+  margin: auto 46%;
+}
+
+.lite {
+  width: 60px;
+}
+
+.logon {
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px blueviolet;
+  margin: 15px;
+}
+
+.logon:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px white;
+}
+
+.info {
+ 
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  border-radius: 5px;
+  background-color: rgb(195, 0, 255);
+  color: rgb(14, 0, 14);
+  text-align: center;
+  font-size: small;
+  margin-top: 30%;
+  border-top: 1px solid fuchsia;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  box-shadow: 1px 1px 30px fuchsia;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 0px;
+-webkit-animation: random 10s infinite;
+    animation: random 10s infinite;
+}
+
+@keyframes random {
     0% {
-        background-color: rgb(73, 5, 122);
+        background-color: gold;
     }
 
     25% {
@@ -41,7 +183,7 @@ h3{
     }
 
     50% {
-        background-color: rgb(73, 5, 122);
+        background-color: gold;
     }
 
     75% {
@@ -49,166 +191,21 @@ h3{
     }
 
     100% {
-        background-color: rgb(73, 5, 122);
+        background-color:gold;
     }
-
-}
-
-h1:hover{
-
-    padding: 20px;
-        text-align: center;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        border: solid 2px rgb(249, 87, 249);
-        border-radius: 15px;
-        color: rgb(201, 1, 1);
-        box-shadow: 1px 1px 20px fuchsia;
-        text-shadow: 1px 1px 2px white;
-        -webkit-animation: random 0.50s infinite;
-        animation: random 0.5s infinite;
-    }
-    
-    @keyframes random {
-    
-        0% {
-            background-color: rgb(73, 5, 122);
-        }
-    
-        25% {
-            background-color: fuchsia;
-        }
-    
-        50% {
-            background-color: rgb(73, 5, 122);
-        }
-    
-        75% {
-            background-color: fuchsia;
-        }
-    
-        100% {
-            background-color: rgb(73, 5, 122);
-        }
-
 }
 
 
-.initial {
-
-    font-family: 'Courier New', Courier, monospace;
-    margin: 60px;
-    color: red;
-    text-decoration: underline;
-    text-align: center;
-}
-
-ul{
-    margin-top: 10%;
-}
-
-li {
-    justify-content: center;
-    margin: auto 0%;
-    list-style: none;
-    display: flex;
-    margin-top: 25px;
-    align-items: center;
+@media (max-width: 400px) {
+  li {
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 12px;
-
-
-}
-
-.redes {
-
-    font-family: 'Press Start 2P', cursive;
-    text-align: center;
-    color: chartreuse;
-    text-decoration: none;
-    border: solid 2px fuchsia;
-    border-radius: 15px;
-    padding: 10px;
-    background-color: rgb(85, 4, 247);
-    justify-content: center;
-    text-shadow: 1px 1px 2px black;
-
-}
-
-.redes:hover {
-
-    color: red;
-    background-color: rgb(213, 249, 154);
-    box-shadow: 1px 1px 20px chartreuse;
-    border: solid 2px chartreuse;
-    text-shadow: 1px 1px 2px black;
-}
-
-
-li img {
-    box-shadow: none;
-    margin: auto 46%;
-}
-
-.lite {
-    width: 60px;
-}
-
-
-.logon {
-    width: 40px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 10px blueviolet;
-    margin: 15px;
-}
-
-.logon:hover {
-
-
-    border-radius: 50%;
-    box-shadow: 0px 0px 25px white;
-
-}
-
-.info{
-    text-shadow: 1px 1px 2px black;
-}
-
-footer {
-    border-radius: 5px;
-    background-color: rgb(195, 0, 255);
-    color: rgb(14, 0, 14);
-    text-align: center;
-    font-size: small;
-    margin-top: 30%;
-    border-top: 1px solid fuchsia;
-    padding-top: 5%;
-    padding-bottom: 4%;
-    box-shadow: 1px 1px 30px fuchsia;
-    font-family: 'Courier New', Courier, monospace;
+    margin: auto 45px;
+  }
+  footer {
     margin-bottom: 0px;
+  }
 
-
-}
-
-@media (max-width:400px){
-
-    li{
-        flex-direction: row;
-        margin: auto 45px;
-        
-       
-    }
-    footer{
-        margin-bottom: 0px;
-    }
-
-    main {
-
-        flex-direction: column;
-    }
-
-    
-
-
+  main {
+    flex-direction: column;
+  }
 }
