@@ -27,7 +27,7 @@ h1 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     border: solid 2px rgb(249, 87, 249);
     border-radius: 15px;
-    color: gold;
+    color: white;
     box-shadow: 1px 1px 20px fuchsia;
     text-shadow: 1px 1px 2px black;
     -webkit-animation: random 20s infinite;
@@ -100,7 +100,8 @@ h1:hover {
 .initial {
     font-family: "Courier New", Courier, monospace;
     margin: 60px;
-    color: red;
+    color: yellow;
+    text-shadow: 1px 1px 1px purple;
     text-decoration: underline;
     text-align: center;
     
