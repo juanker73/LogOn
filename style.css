@@ -170,6 +170,7 @@ li {
 li img {
     box-shadow: none;
     margin: auto 46%;
+    
 }
 
 .lite {
@@ -242,7 +243,7 @@ footer {
     li {
         flex-direction: row;
         margin: auto 45px;
-        margin-top: 5%;
+        margin-top: 25%;
     }
 
     footer {
