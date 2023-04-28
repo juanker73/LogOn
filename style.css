@@ -10,6 +10,15 @@ body {
     background-color: rgb(35, 3, 84);
     color: whitesmoke;
     text-transform: capitalize;
+    background-image: url(https://png.pngtree.com/background/20220725/original/pngtree-retro-neon-background-with-80s-styled-laser-grid-and-stars-from-picture-image_1779499.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title{
+    position: static;
 }
 
 h1 {
@@ -23,7 +32,10 @@ h1 {
     text-shadow: 1px 1px 2px black;
     -webkit-animation: random 20s infinite;
     animation: random 20s infinite;
+    
 }
+
+
 
 h3 {
     text-shadow: none;
@@ -91,12 +103,13 @@ h1:hover {
     color: red;
     text-decoration: underline;
     text-align: center;
+    
 }
 
 .arrow {
     width: 80px;
     position: fixed;
-    bottom:90px;
+    bottom: 90px;
     right: 25px;
     transform: rotate(-180deg);
     -moz-transform: scaleX(-1);
