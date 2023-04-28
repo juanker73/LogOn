@@ -18,7 +18,8 @@ body {
 }
 
 
-.logochi, h1{
+.logochi,
+h1 {
     position: fixed;
     min-width: 100%;
     margin-bottom: 10%;
@@ -33,7 +34,7 @@ body {
     -webkit-animation: random 20s infinite;
     animation: random 20s infinite;
     font-size: x-large;
-    
+
 }
 
 h3 {
@@ -62,7 +63,8 @@ h3 {
     }
 }
 
-h1, .logochi:hover {
+h1,
+.logochi:hover {
     padding: 20px;
     text-align: center;
     font-family: "Press Start 2P", cursive;
@@ -98,7 +100,7 @@ h1, .logochi:hover {
 }
 
 .initial {
-    
+
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin: auto 60px;
     margin-top: 160px;
@@ -106,7 +108,7 @@ h1, .logochi:hover {
     text-shadow: 1px 1px 1px black;
     text-decoration: underline;
     text-align: center;
-    
+
 }
 
 .arrow {
@@ -168,7 +170,7 @@ li {
 li img {
     box-shadow: none;
     margin: auto 46%;
-    
+
 }
 
 .lite {
@@ -234,11 +236,11 @@ footer {
 
 @media (max-width: 400px) {
 
-    .logochi{
+    .logochi {
         width: 100%;
     }
 
-    .initial{
+    .initial {
         margin-top: 40%;
     }
 
