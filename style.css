@@ -24,14 +24,15 @@ h1 {
     margin-bottom: 10%;
     padding: 20px;
     text-align: center;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Press Start 2P", cursive;
     border: solid 2px rgb(249, 87, 249);
     border-radius: 15px;
-    color: white;
+    color: purple;
     box-shadow: 1px 1px 20px fuchsia;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 1px orangered;
     -webkit-animation: random 20s infinite;
     animation: random 20s infinite;
+    font-size: x-large;
     
 }
 
@@ -66,11 +67,12 @@ h3 {
 h1:hover {
     padding: 20px;
     text-align: center;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Press Start 2P", cursive;
     border: solid 2px rgb(249, 87, 249);
     border-radius: 15px;
     box-shadow: 1px 1px 20px fuchsia;
-    text-shadow: 1px 1px 2px rgb(23, 3, 240);
+    color: orangered;
+    text-shadow: 1px 1px 2px purple;
     -webkit-animation: randomrgb(27, 15, 243) infinite;
     animation: random 0.5s infinite;
 }
@@ -102,8 +104,8 @@ h1:hover {
     font-family: "Courier New", Courier, monospace;
     margin: auto 60px;
     margin-top: 160px;
-    color: yellow;
-    text-shadow: 1px 1px 1px purple;
+    color: cyan;
+    text-shadow: 1px 1px 1px black;
     text-decoration: underline;
     text-align: center;
     
@@ -137,7 +139,7 @@ li {
     margin: auto 0%;
     list-style: none;
     display: flex;
-    margin-top: 20%;
+    margin-top: 15%;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -232,10 +234,15 @@ footer {
 
 
 @media (max-width: 400px) {
+
+    .initial{
+        margin-top: 60%;
+    }
+
     li {
         flex-direction: row;
         margin: auto 45px;
-        margin-top: 25%;
+        margin-top: 5%;
     }
 
     footer {
