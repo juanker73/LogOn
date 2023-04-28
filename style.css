@@ -101,10 +101,10 @@ h1:hover {
 
 .initial {
     
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin: auto 60px;
     margin-top: 160px;
-    color: cyan;
+    color: orangered;
     text-shadow: 1px 1px 1px black;
     text-decoration: underline;
     text-align: center;
