@@ -18,7 +18,7 @@ body {
 }
 
 
-h1 {
+.logochi, h1{
     position: fixed;
     min-width: 100%;
     margin-bottom: 10%;
@@ -35,8 +35,6 @@ h1 {
     font-size: x-large;
     
 }
-
-
 
 h3 {
     text-shadow: none;
@@ -64,7 +62,7 @@ h3 {
     }
 }
 
-h1:hover {
+.logochi, h1:hover {
     padding: 20px;
     text-align: center;
     font-family: "Press Start 2P", cursive;
@@ -236,14 +234,18 @@ footer {
 
 @media (max-width: 400px) {
 
+    .logochi{
+        width: 100%;
+    }
+
     .initial{
-        margin-top: 60%;
+        margin-top: 40%;
     }
 
     li {
         flex-direction: row;
         margin: auto 45px;
-        margin-top: 25%;
+        margin-top: 20%;
     }
 
     footer {
