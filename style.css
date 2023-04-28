@@ -62,7 +62,7 @@ h3 {
     }
 }
 
-.logochi, h1:hover {
+h1, .logochi:hover {
     padding: 20px;
     text-align: center;
     font-family: "Press Start 2P", cursive;
