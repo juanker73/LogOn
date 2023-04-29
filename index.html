@@ -2,7 +2,6 @@
 <html lang="en-US">
 
 <head>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&family=Press+Start+2P&display=swap"
@@ -12,44 +11,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>free logos social media</title>
     <link rel="stylesheet" href="style.css">
-    <audio id="sonidoClic">
-        <source src="audio/.mp3" type="audio/mp3">
+    <audio id="reproductor">
+        <source src="audio/shoot.mp3" type="audio/mp3">
     </audio>
 </head>
 
 <body>
-    <header id="dinamic" class="title"><img class="logochi" src="images/logochi.png" alt="">
-
+    <header id="dinamic" class="title">
+        <img class="logochi" src="images/logochi.png" alt="">
         <h2 class="initial">Social Media</h2>
     </header>
+
     <main>
         <nav>
             <ul>
                 <li>
-                    <a class="redes" id="miElemento" href="facebook.html">facebook</a>
-                    <a class="redes" href="whatsapp.html">whattsapp</a>
-                    <a class="redes" href="instagram.html">instagram</a>
-                    <a class="redes" href="twitter.html">twiter</a>
-                    <a class="redes" href="github.html">github</a>
-                    <a class="redes" href="gmail.html">gmail</a>
-                    <a class="redes" href="tik-tok.html">tik-tok</a>
+                    <a class="redes" href="facebook.html" data-audio="shoot.mp3">facebook</a>
+                    <a class="redes" href="whatsapp.html" data-audio="shoot.mp3">whattsapp</a>
+                    <a class="redes" href="instagram.html" data-audio="shoot.mp3">instagram</a>
+                    <a class="redes" href="twitter.html" data-audio="shoot.mp3">twiter</a>
+                    <a class="redes" href="github.html" data-audio="shoot.mp3">github</a>
+                    <a class="redes" href="gmail.html" data-audio="shoot.mp3">gmail</a>
+                    <a class="redes" href="tik-tok.html" data-audio="shoot.mp3">tik-tok</a>
                 </li>
             </ul>
         </nav>
     </main>
+
     <footer>
         <div class="info">
             <h3>developed by Juan Manuel Marin
                 <p>initial front-end developer</p>
+            </h3>
         </div>
-        </h3>
+
         <div class="login">
             <a href="http://github.com"><img class="logon"
                     src="https://github.com/juanker73/LogOn/blob/master/images/github-allBlack.png?raw=true"></a>
             <p>github</p>
         </div>
     </footer>
-    <script src="app.js/.js"></script>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
