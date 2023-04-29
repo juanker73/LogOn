@@ -8,6 +8,6 @@ links.forEach((link) => {
     console.log(`Reproduciendo: ${audio.src}`);
     setTimeout(() => {
       window.location.href = link.href;
-    }, 1000); //espera 1 segundo para redirigir al usuario
+    }, 500); //espera 1 segundo para redirigir al usuario
   });
 });
