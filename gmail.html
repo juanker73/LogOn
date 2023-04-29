@@ -59,6 +59,19 @@
             volverAudio.play();
         });
     </script>
+    <script>
+        const listItems = document.querySelectorAll('li');
+
+
+        listItems.forEach(listItem => {
+            listItem.addEventListener('click', () => {
+
+                const sound = new Audio('audio/piuuup.mp3');
+
+                sound.play();
+            });
+        });
+    </script>
 </body>
 
 </html>

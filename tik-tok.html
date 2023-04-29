@@ -24,24 +24,16 @@
         <nav>
             <ul>
                 <li>
-                    <img class="logon"
-                        src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-transparente.png?raw=true">
-                    <img class="logon"
-                        src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-azul.png?raw=true">
-                    <img class="logon"
-                        src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-rojo.png?raw=true">
-                    <img class="logon"
-                        src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-magenta.png?raw=true">
-                    <img class="logon"
-                        src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-verde.png?raw=true">
-                    <img class="logon"
-                        src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-negro.png?raw=true">
-                    <img class="logon"
-                        src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-gold.png?raw=true">
-                    <img class="logon"
-                        src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-silver.png?raw=true">
-                    <img class="logon"
-                        src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-arco.png?raw=true">
+                    <img class="logon" src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-transparente.png?raw=true">
+                    <audio class="audio" src="audio/piuuup.mp3"></audio>
+                    <img class="logon" src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-azul.png?raw=true">
+                    <img class="logon" src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-rojo.png?raw=true">
+                    <img class="logon" src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-magenta.png?raw=true">
+                    <img class="logon" src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-verde.png?raw=true">
+                    <img class="logon" src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-negro.png?raw=true">
+                    <img class="logon" src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-gold.png?raw=true">
+                    <img class="logon" src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-silver.png?raw=true">
+                    <img class="logon" src="https://github.com/juanker73/LogOn/blob/master/images/tik-tok-arco.png?raw=true">
                     
                     
                 
@@ -66,6 +58,21 @@
         volverLink.addEventListener('click', () => {
             volverAudio.play();
         });
+    </script>
+    <script>
+        // Obtener todas las imágenes
+            const listItems = document.querySelectorAll('li');
+
+            // Agregar evento de clic a cada lista desplegable
+            listItems.forEach(listItem => {
+                listItem.addEventListener('click', () => {
+                    // Crear una nueva instancia de Audio para el sonido
+                    const sound = new Audio('audio/piuuup.mp3');
+                    // Reproducir el sonido
+                    sound.play();
+                });
+            });
+
     </script>
 
 </body>
